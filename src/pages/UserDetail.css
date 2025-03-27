@@ -1,0 +1,71 @@
+/* UserDetails.css */
+
+/* Full background dark theme */
+body {
+    background-color: #121212; /* Dark background for the whole page */
+    color: #fff;
+  }
+  
+  /* User details container */
+  .user-details-container {
+    padding: 3rem;
+    background-color: rgb(174, 175, 177); /* Lighter background for the container */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+  .link-no-underline {
+    text-decoration: none;
+  }
+
+  /* Header for user details */
+  .user-details-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .user-details-header h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(24, 24, 24); /* Dark text for the header */
+  }
+  
+  /* Card containing user details */
+  .user-details-card {
+    background-color: #fff; /* White background for card */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for paragraphs inside the user details card */
+  .user-details-card p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Highlighting labels in blue for clarity */
+  .user-details-card p strong {
+    color:rgb(226, 228, 229);
+  }
+  
+  /* Button style for 'Back to Users' */
+  .btn-back {
+    background-color:rgb(29, 29, 30);
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 2rem auto; /* Center button horizontally */
+  }
+  
+  /* Button hover effect */
+  .btn-back:hover {
+    background-color:rgb(49, 50, 52);
+  }
+  
